@@ -1,0 +1,48 @@
+.Eightball-stage {
+    perspective: 1200px;
+    perspective-origin: 50% 50%;
+  }
+
+.Eightball {
+    position: relative;
+    /* background-color: black; */
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    margin-top: 25%;
+    background: radial-gradient(circle at 100px 100px, #505152, #000);
+}
+
+
+.Eightball-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+
+.Eightball-answer {
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Eightball-button {
+    background-color: black;
+    color: white;
+    margin: auto;
+    margin-left: 47%;
+    margin-top: 10px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.Eightball-colors {
+    margin: auto;
+    margin-left: 47%;
+    margin-top: 10px;
+}
